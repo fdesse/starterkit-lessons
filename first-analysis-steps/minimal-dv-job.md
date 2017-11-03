@@ -14,13 +14,13 @@ produce a ROOT ntuple.
 {% callout "ROOT  ntuple" %}
 A ROOT ntuple is the standard file to store data used for analysis at LHCb. It usually
 contains one or several trees, which themselves have branches. A tree usually corresponds
-to a given decay, and the branches corresponds to the variables associated to this decay.
+to a given decay, and the branches correspond to the variables associated to this decay.
 Each tree can be seen as a large matrix, with each row corresponding to an event and each
 column corresponding to a variable.
 Let's imagine a simple example: one wants to study the decay 'B0 -> K* e+ e-', and has an 
 ntuple with two trees: data and MC. The data tree has 2 branches: Nevent (number of the event), 
 B0_M (the reconstructed mass the B0). The MC has 3 branches: Nevent, B0_M and B0_TRUE_M (the 
-true mass of the B0)
+true mass of the B0).
 {% endcallout %}
 
 {% objectives "Learning Objectives" %}
